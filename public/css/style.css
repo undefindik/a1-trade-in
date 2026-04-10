@@ -1,0 +1,128 @@
+:root {
+    --font-accent: 'A1 Serif', serif;
+    --font-default: 'A1 Sans', sans-serif;
+
+    --backgroud: #f8fafc;
+    --underlay: #fff;
+
+    --text-color: #808080;
+
+    --background-method-get: #dbeafe;
+    --color-method-get: #1e40af;
+
+    --background-method-post: #dcfce7;
+    --color-method-post: #15803d;
+}
+
+body {
+    background: var(--backgroud);
+    font-family: var(--font-default);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.title {
+    font-family: var(--font-accent);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header {
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: var(--underlay)
+}
+
+.footer {
+    background: var(--underlay);
+    padding: 10px 0px;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__inner p {
+    color: var(--text-color);
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50px 0px;
+}
+
+.request {
+    background: var(--underlay);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.request__inner {
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.request__method {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+[data-method="get"] .request__method {
+    background: var(--background-method-get);
+    color: var(--color-method-get);
+}
+
+[data-method="post"] .request__method {
+    background: var(--background-method-post);
+    color: var(--color-method-post);
+}
+
+.request__content {
+    padding: 20px 10px;
+}
+
+.requests {
+    display: grid;
+    gap: 20px;
+}
+
+.request__title {
+    font-size: 22px;
+    font-family: var(--font-accent);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.request__description {
+    font-family: var(--font-default);
+    color: var(--text-color);
+    margin-bottom: 20px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.request__code {
+    font-family: var(--font-default);
+}

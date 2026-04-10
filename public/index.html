@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Trade-In API</title>
+    <link rel="icon" href="./img/logo.svg" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__img" src="./img/logo.svg" alt="logo">
+        <h1 class="title">Trade-In API</h1>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="requests">
+                    <div class="request" data-method="get">
+                        <div class="request__inner">
+                            <div class="request__method">
+                                GET
+                            </div>
+                            <div class="request__content">
+                                <h3 class="request__title">Получение девайсов</h3>
+                                <pre class="request__code">/api/devices</pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="request" data-method="get">
+                        <div class="request__inner">
+                            <div class="request__method">
+                                GET
+                            </div>
+                            <div class="request__content">
+                                <h3 class="request__title">Получение девайса по параметру</h3>
+                                <pre class="request__code">/api/devices?producer=&model=&configuration=</pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="request" data-method="get">
+                        <div class="request__inner">
+                            <div class="request__method">
+                                GET
+                            </div>
+                            <div class="request__content">
+                                <h3 class="request__title">Получение состояний</h3>
+                                <pre class="request__code">/api/conditions</pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="request" data-method="get">
+                        <div class="request__inner">
+                            <div class="request__method">
+                                GET
+                            </div>
+                            <div class="request__content">
+                                <h3 class="request__title">Получение состояния по параметру</h3>
+                                <pre class="request__code">/api/conditions/:condition</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p>© 2026. Унитарное предприятие "A1". Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const requests = document.querySelectorAll('.requests')
+
+    const copyCode = (value) => {
+        navigator.clipboard.writeText(value)
+            .then(() => {
+                return;
+            })
+            .catch(err => {
+                console.error('Ошибка копирования:', err);
+            });
+    }
+
+    requests.forEach(el => {
+        el.addEventListener('click', e => {
+            const parentNode = e.target.closest('.request-block');
+            const code = parentNode.querySelector('.request-code').textContent;
+            copyCode(code)
+        })
+    })
+</script>
+
+</html>

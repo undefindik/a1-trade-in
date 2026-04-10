@@ -1,0 +1,528 @@
+[
+  {
+    "id": 1,
+    "producer": "Apple",
+    "model": "iPhone 11",
+    "year": 2019,
+    "storage": "64GB",
+    "price": 1250.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 11",
+    "year": 2019,
+    "storage": "128GB",
+    "price": 1400.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 11",
+    "year": 2019,
+    "storage": "256GB",
+    "price": 1650.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 12",
+    "year": 2020,
+    "storage": "64GB",
+    "price": 1550.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 12",
+    "year": 2020,
+    "storage": "128GB",
+    "price": 1700.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 12",
+    "year": 2020,
+    "storage": "256GB",
+    "price": 1950.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 13",
+    "year": 2021,
+    "storage": "128GB",
+    "price": 2100.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 13",
+    "year": 2021,
+    "storage": "256GB",
+    "price": 2400.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 13",
+    "year": 2021,
+    "storage": "512GB",
+    "price": 2900.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 14",
+    "year": 2022,
+    "storage": "128GB",
+    "price": 2600.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 14",
+    "year": 2022,
+    "storage": "256GB",
+    "price": 2950.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 14",
+    "year": 2022,
+    "storage": "512GB",
+    "price": 3600.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 15",
+    "year": 2023,
+    "storage": "128GB",
+    "price": 3100.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 15",
+    "year": 2023,
+    "storage": "256GB",
+    "price": 3500.00
+  },
+  {
+    "producer": "Apple",
+    "model": "iPhone 15",
+    "year": 2023,
+    "storage": "512GB",
+    "price": 4300.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S10",
+    "year": 2019,
+    "storage": "8/128GB",
+    "price": 899.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S10",
+    "year": 2019,
+    "storage": "8/512GB",
+    "price": 1099.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S20",
+    "year": 2020,
+    "storage": "8/128GB",
+    "price": 1299.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S20",
+    "year": 2020,
+    "storage": "8/256GB",
+    "price": 1449.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S20",
+    "year": 2020,
+    "storage": "12/512GB",
+    "price": 1699.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S21",
+    "year": 2021,
+    "storage": "8/128GB",
+    "price": 1499.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S21",
+    "year": 2021,
+    "storage": "8/256GB",
+    "price": 1649.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S22",
+    "year": 2022,
+    "storage": "8/128GB",
+    "price": 1799.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S22",
+    "year": 2022,
+    "storage": "8/256GB",
+    "price": 1999.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S23",
+    "year": 2023,
+    "storage": "8/128GB",
+    "price": 2199.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy S23",
+    "year": 2023,
+    "storage": "8/256GB",
+    "price": 2399.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy A51",
+    "year": 2019,
+    "storage": "4/64GB",
+    "price": 499.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy A51",
+    "year": 2019,
+    "storage": "6/128GB",
+    "price": 599.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy A52",
+    "year": 2021,
+    "storage": "6/128GB",
+    "price": 699.00
+  },
+  {
+    "producer": "Samsung",
+    "model": "Galaxy A52",
+    "year": 2021,
+    "storage": "8/256GB",
+    "price": 799.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 7",
+    "year": 2019,
+    "storage": "3/32GB",
+    "price": 299.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 7",
+    "year": 2019,
+    "storage": "4/64GB",
+    "price": 349.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 7",
+    "year": 2019,
+    "storage": "4/128GB",
+    "price": 399.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 8",
+    "year": 2019,
+    "storage": "3/32GB",
+    "price": 329.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 8",
+    "year": 2019,
+    "storage": "4/64GB",
+    "price": 379.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 8",
+    "year": 2019,
+    "storage": "4/128GB",
+    "price": 429.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Mi 9",
+    "year": 2019,
+    "storage": "6/64GB",
+    "price": 549.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Mi 9",
+    "year": 2019,
+    "storage": "6/128GB",
+    "price": 599.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Mi 9",
+    "year": 2019,
+    "storage": "8/128GB",
+    "price": 649.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Mi 10",
+    "year": 2020,
+    "storage": "8/128GB",
+    "price": 799.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Mi 10",
+    "year": 2020,
+    "storage": "8/256GB",
+    "price": 899.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Poco F3",
+    "year": 2021,
+    "storage": "6/128GB",
+    "price": 649.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Poco F3",
+    "year": 2021,
+    "storage": "8/256GB",
+    "price": 749.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 10",
+    "year": 2021,
+    "storage": "4/64GB",
+    "price": 399.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 10",
+    "year": 2021,
+    "storage": "4/128GB",
+    "price": 449.00
+  },
+  {
+    "producer": "Xiaomi",
+    "model": "Redmi Note 10",
+    "year": 2021,
+    "storage": "6/128GB",
+    "price": 499.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 3",
+    "year": 2018,
+    "storage": "4/64GB",
+    "price": 699.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 3",
+    "year": 2018,
+    "storage": "4/128GB",
+    "price": 799.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 4",
+    "year": 2019,
+    "storage": "6/64GB",
+    "price": 749.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 4",
+    "year": 2019,
+    "storage": "6/128GB",
+    "price": 849.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 5",
+    "year": 2020,
+    "storage": "8/128GB",
+    "price": 899.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 6",
+    "year": 2021,
+    "storage": "8/128GB",
+    "price": 999.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 6",
+    "year": 2021,
+    "storage": "8/256GB",
+    "price": 1099.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 7",
+    "year": 2022,
+    "storage": "8/128GB",
+    "price": 1199.00
+  },
+  {
+    "producer": "Google",
+    "model": "Pixel 7",
+    "year": 2022,
+    "storage": "8/256GB",
+    "price": 1299.00
+  },
+  {
+    "producer": "OnePlus",
+    "model": "OnePlus 7 Pro",
+    "year": 2019,
+    "storage": "6/128GB",
+    "price": 799.00
+  },
+  {
+    "producer": "OnePlus",
+    "model": "OnePlus 7 Pro",
+    "year": 2019,
+    "storage": "8/256GB",
+    "price": 899.00
+  },
+  {
+    "producer": "OnePlus",
+    "model": "OnePlus 7 Pro",
+    "year": 2019,
+    "storage": "12/256GB",
+    "price": 999.00
+  },
+  {
+    "producer": "OnePlus",
+    "model": "OnePlus 8",
+    "year": 2020,
+    "storage": "8/128GB",
+    "price": 899.00
+  },
+  {
+    "producer": "OnePlus",
+    "model": "OnePlus 8",
+    "year": 2020,
+    "storage": "12/256GB",
+    "price": 1049.00
+  },
+  {
+    "producer": "OnePlus",
+    "model": "OnePlus 9",
+    "year": 2021,
+    "storage": "8/128GB",
+    "price": 999.00
+  },
+  {
+    "producer": "OnePlus",
+    "model": "OnePlus 9",
+    "year": 2021,
+    "storage": "12/256GB",
+    "price": 1149.00
+  },
+  {
+    "producer": "Huawei",
+    "model": "P30 Pro",
+    "year": 2019,
+    "storage": "8/128GB",
+    "price": 899.00
+  },
+  {
+    "producer": "Huawei",
+    "model": "P30 Pro",
+    "year": 2019,
+    "storage": "8/256GB",
+    "price": 999.00
+  },
+  {
+    "producer": "Huawei",
+    "model": "P40 Pro",
+    "year": 2020,
+    "storage": "8/128GB",
+    "price": 1099.00
+  },
+  {
+    "producer": "Huawei",
+    "model": "P40 Pro",
+    "year": 2020,
+    "storage": "8/256GB",
+    "price": 1249.00
+  },
+  {
+    "producer": "Nokia",
+    "model": "8.1",
+    "year": 2018,
+    "storage": "4/64GB",
+    "price": 449.00
+  },
+  {
+    "producer": "Nokia",
+    "model": "8.1",
+    "year": 2018,
+    "storage": "6/128GB",
+    "price": 499.00
+  },
+  {
+    "producer": "Sony",
+    "model": "Xperia 1",
+    "year": 2019,
+    "storage": "6/64GB",
+    "price": 949.00
+  },
+  {
+    "producer": "Sony",
+    "model": "Xperia 1",
+    "year": 2019,
+    "storage": "6/128GB",
+    "price": 1049.00
+  },
+  {
+    "producer": "Motorola",
+    "model": "Moto G7",
+    "year": 2019,
+    "storage": "4/64GB",
+    "price": 299.00
+  },
+  {
+    "producer": "Realme",
+    "model": "Realme 6",
+    "year": 2020,
+    "storage": "4/64GB",
+    "price": 299.00
+  },
+  {
+    "producer": "Realme",
+    "model": "Realme 6",
+    "year": 2020,
+    "storage": "8/128GB",
+    "price": 369.00
+  },
+  {
+    "producer": "Realme",
+    "model": "Realme 8",
+    "year": 2021,
+    "storage": "6/128GB",
+    "price": 349.00
+  },
+  {
+    "producer": "Realme",
+    "model": "Realme 8",
+    "year": 2021,
+    "storage": "8/128GB",
+    "price": 399.00
+  }
+]

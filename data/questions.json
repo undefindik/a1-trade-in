@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Состояние",
+    "description": "Укажите состояние",
+    "questions": [
+      { "label": "Новое (запечатанное с пломбами производителя)", "value": "new_sealed" },
+      { "label": "Новое (вскрытое, активированное или не активированное)", "value": "new_opened" },
+      { "label": "Хорошее (дефекты отсутствуют)", "value": "good_no_defects" },
+      { "label": "Мелкие следы эксплуатации", "value": "minor_usage_signs" },
+      { "label": "Крупные следы эксплуатации", "value": "major_usage_signs" },
+      { "label": "Разбитый", "value": "smashed" },
+      { "label": "Не рабочее", "value": "not_working" }
+    ]
+  },
+  {
+    "title": "Дефекты дисплея",
+    "description": "Укажите наличие дефектов дисплея",
+    "questions": [
+      { "label": "Царапины", "value": "scratches" },
+      { "label": "Трещины", "value": "cracks" },
+      { "label": "Сколы", "value": "chips" },
+      { "label": "Засветы", "value": "backlight_bleed" },
+      { "label": "Пятна / полосы", "value": "spots_lines" },
+      { "label": "Битые пиксели", "value": "dead_pixels" }
+    ]
+  },
+  {
+    "title": "Работоспособность",
+    "description": "Укажите наличие общих дефектов",
+    "questions": [
+      { "label": "Не включается / не выключается", "value": "doesnt_turn_on_off" },
+      { "label": "Не заряжается", "value": "doesnt_charge" },
+      { "label": "Не работает мобильная связь", "value": "mobile_network_not_working" },
+      { "label": "Не работают кнопки: громкость, питание", "value": "buttons_not_working" },
+      { "label": "Не работает динамик, микрофон, вибрация", "value": "speaker_mic_vibration_not_working" },
+      { "label": "Не работает Face ID, Touch ID", "value": "face_touch_id_not_working" },
+      { "label": "Не работает фонарик", "value": "flashlight_not_working" },
+      { "label": "Не работает", "value": "not_working" }
+    ]
+  },
+  {
+    "title": "Камеры",
+    "description": "Укажите наличие дефектов камеры",
+    "questions": [
+      { "label": "Не работает фронтальная камера", "value": "front_camera_not_working" },
+      { "label": "Не работает основная камера", "value": "rear_camera_not_working" },
+      { "label": "Не работает фокусировка", "value": "focus_not_working" },
+      { "label": "Имеются пятна на фотографиях", "value": "spots_on_photos" }
+    ]
+  }
+]
